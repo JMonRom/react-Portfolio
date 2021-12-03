@@ -10,7 +10,7 @@ const MainPage = () => {
           <div className="profile-bio">
               <div className="row">
                   <div className="col-md-5 text-center" >
-                      <img className="img-thumbnail md-margin-bottom-10 " src="./assets/images/Selfie.png" alt="Picture of myself" style={{width:"25rem", height:"29rem"}}/>
+                      <img className="img-thumbnail md-margin-bottom-10 " src="../images/Selfie.png" alt="Picture of myself" style={{width:"25rem", height:"29rem"}}/>
                   </div>
                   <div className="col-md-7" >
                       <h2>Jonathan Montes Romero</h2>
@@ -32,7 +32,7 @@ const MainPage = () => {
 
   <h2 className="h1-responsive font-weight-bold text-center my-5">A COLLECTION OF MY PROJECTS</h2>
  
-  <p className="black-text text-center w-responsive mx-auto mb-5">This section displays a variety of projects I have worked on using JavaScript, ReactJS, SQL, Python and many other technologies !</p>
+  <p className="black-text text-center w-responsive mx-auto mb-5 info">This section displays a variety of projects I have worked on using JavaScript, ReactJS, SQL, Python and many other technologies !</p>
 
   <div className="container container-fluid">
 
@@ -40,7 +40,7 @@ const MainPage = () => {
 
 
     <div className="col-md-12 mb-4">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFour)"}} >
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}} >
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="purple-text">
@@ -59,7 +59,7 @@ const MainPage = () => {
     </div>
 
     <div className="col-md-6 mb-md-0 mb-4 ">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFour);"}}>
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}}>
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="pink-text" >
@@ -78,7 +78,7 @@ const MainPage = () => {
     </div>
  
     <div className="col-md-6">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFive);"}}>
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}}>
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="green-text">
@@ -97,7 +97,7 @@ const MainPage = () => {
     </div>
  
     <div className="col-md-6 mb-md-0 mb-4 mt-4">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFive);"}}>
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}}>
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="pink-text">
@@ -116,7 +116,7 @@ const MainPage = () => {
     </div>
 
     <div className="col-md-6 mt-4">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFive);"}}>
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}}>
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="green-text">
@@ -135,7 +135,7 @@ const MainPage = () => {
     </div>
 
     <div className="col-md-12 mb-4 mt-4">
-      <div className="card card-image" style={{backgroundColor: "var(--colorFive);"}}>
+      <div className="card card-image" style={{backgroundColor: "var(--thirdColor)"}}>
         <div className="text-black text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
           <div>
             <h3 className="purple-text">

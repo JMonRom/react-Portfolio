@@ -234,17 +234,25 @@ h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
+h2, h3 {
   font-size: 24px;
   line-height: 33px;
+  color: var(--secondaryColor);
+}
+
+.info {
+  color: var(--secondaryColor)
 }
 
 footer {
   text-align: center;
-  color: var(--thirdColor);
+  color: var(--secondaryColor);
 }
 
 footer p {
   font-size: 10px;
 }
 
+#contact-me {
+  color: var(--secondaryColor);
+} 
