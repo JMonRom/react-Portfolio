@@ -40,11 +40,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
-  --primary-red: #ef4035;
-  --primary-hover-red: #f33501;
+  --primaryColor: #102133;
+  --secondaryColor: #3A887B;
+  --thirdColor: #DCC275;
+  --fourthColor: #F1F0DC;
+  --fifthColor: #A0A099;
 }
 
 body {
@@ -78,8 +78,8 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: .75rem;
   margin-left: .75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  color: var(--fourthColor) !important;
+  border-top: 0.1875rem solid var(--fourthColor);
 }
 
 .navbar-brand {
@@ -89,10 +89,10 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active , .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--thirdColor);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--thirdColor);
 }
 
