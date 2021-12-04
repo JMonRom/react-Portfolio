@@ -1,4 +1,5 @@
 import React from 'react';
+import Pic from '../images/Selfie.png';
 
 
 const MainPage = () => {
@@ -10,7 +11,7 @@ const MainPage = () => {
           <div className="profile-bio">
               <div className="row">
                   <div className="col-md-5 text-center" >
-                      <img className="img-thumbnail md-margin-bottom-10 " src="../images/Selfie.png" alt="Picture of myself" style={{width:"25rem", height:"29rem"}}/>
+                      <img className="img-thumbnail md-margin-bottom-10 " src={Pic} alt="Picture of myself" style={{width:"25rem", height:"29rem"}}/>
                   </div>
                   <div className="col-md-7" >
                       <h2>Jonathan Montes Romero</h2>

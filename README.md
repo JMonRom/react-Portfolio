@@ -6,7 +6,10 @@
 
   For this assignment I was provided the opportunity to demonstrate my understanding of react and how to navigate it for the front end to display a portfolio page with certain features that most competitive web developers have on their sites. Being exposed to react from our last group project and referring to previous activities from the React week helped navigate through this assignment easier. 
   
-  As I kept working on the converting I plan to continue to style the frontend and begin to implement some backend as well ! 
+  As I kept working on the converting I plan to continue to style the frontend and begin to implement some backend as well ! I ran into an issue with pushing my updates and having them display on the deployed site. Below I have included a picture of the most recent changes to the site waiting to be deployed. 
+
+  React Waiting to Deploy:
+  [React PNG](./src/images/reactPortfolio.png)
 
   Resource(s) used :
 

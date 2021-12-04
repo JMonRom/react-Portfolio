@@ -1,4 +1,5 @@
 import React from 'react'
+// import Contact from './ContactForm'
 
 const Header = () => {
   return (
@@ -12,6 +13,8 @@ const Header = () => {
   </div>
 </div>
 </div>
+{/* 
+<Contact></Contact> */}
 
 <div className="container" id="contactMe">
 <div className="row display my-4">
